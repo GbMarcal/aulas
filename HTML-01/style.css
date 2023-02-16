@@ -1,0 +1,54 @@
+.titulos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+th {
+    border: solid black 1px;
+    padding: px;
+    text-align: left;
+}
+
+td {
+    border: black solid 1px;
+    display: table-cell;
+    text-align: left;
+}
+
+a:hover {
+    background-color: aqua;
+    color: red;
+}
+
+a:active {
+    color: darkkhaki;
+}
+
+a:visited {
+    color: thistle
+}
+
+.formatacao {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 15px;
+}
+
+p {
+    max-width: 320px;
+}
+
+ul {
+    list-style: square inside;
+    border: black solid 1px;
+    min-width: fit-content;
+    max-width: 20vw;
+    padding-right: 20px;
+}
+
+ol {
+    list-style: decimal inside;
+    border: black solid 1px;
+}
