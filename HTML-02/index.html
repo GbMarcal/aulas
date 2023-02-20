@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Intermediário</title>
+</head>
+<body>
+    <h1>Tag input</h1>
+
+    <form method="get" action="/index.html" enctype="multipart/form-data">
+
+        <input type="text" name="nome" id="nome"> <br><br>
+
+        <input type="number" name="numero-telefone" id="numero-telefone"> <br><br>
+
+        <input type="email" name="email" id="email" placeholder="exemplo@email.com"> <br><br>
+
+        <label for="senha">Digite sua senha:</label>
+        <input type="password" name="senha" id="senha" placeholder="********" required> <br><br>
+
+        <!-- Tag Checkbox -->
+        <label for="azul">Azul</label>
+        <input type="checkbox" name="cores" id="azul"> <br>
+        <label for="vermelho">Vermelho</label>
+        <input type="checkbox" name="cores" id="vermelho"> <br>
+        <label for="verde">Verde</label>
+        <input type="checkbox" name="cores" id="Verde" checked> <br><br>
+
+        <!-- Tag Radio -->
+        <h2>Você possui mais de 18 anos?</h2>
+        <label for="positivo">Sim</label>
+        <input type="radio" name="idade" id="positivo">
+        <label for="negativo">Não</label>
+        <input type="radio" name="idade" id="negativo" checked> <br><br>
+
+        <!-- Tag Select -->
+        <label for="jokenpo">Escolha uma opção</label>
+        <select name="jokenpo" id="jokenpo">
+            <option value="" selected>Selecionar</option>
+            <option value="Pedra">Pedra</option>
+            <option value="Papel">Papel</option>
+            <option value="Tesoura">Tesoura</option>
+        </select> <br><br>
+
+        <textarea name="texto" id="texto" cols="30" rows="15">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore perferendis, doloribus, quidem corporis aliquam praesentium sint nesciunt explicabo consectetur ratione culpa laboriosam esse neque! Culpa soluta tenetur velit reprehenderit perspiciatis.</textarea> <br> <br>
+
+        <!-- Tag button e input:button -->
+        <input type="button" value="Clique aqui"> <br> <br>
+        <button>Clique aqui</button> <br> <br>
+
+        <input type="file"> <br><br>
+
+        <input type="reset" value="Cancelar">
+        <input type="submit" value="Enviar"> <br><br>
+
+    </form>
+
+
+</body>
+</html>
