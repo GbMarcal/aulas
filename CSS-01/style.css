@@ -1,0 +1,56 @@
+/* CSS Externo */
+*{
+    margin: 0;
+}
+
+p {
+    display: block;
+
+    /* margin-top: 50px;
+    margin-right: 25px; 
+    margin-bottom: 30px;
+    margin-left: 15px; */
+    margin: 50px 25px 30px 15px;
+
+    /* padding-top: 25px;
+    padding-right: 20px; 
+    padding-bottom: 25px;
+    padding-left: 20px; */
+    padding: 25px 20px;
+
+    color: blueviolet;
+    background-color: darkblue;
+}
+
+p {
+    /* border-style: solid;
+    border-width: 8px;
+    border-color: green; */
+    border: solid 8px green;
+}
+
+.classe-teste {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: aqua;
+    border-top-color: brown;
+    border-top-style: solid;
+
+}
+
+#id-paragrafo {
+    border: solid 5px black;
+}
+
+.classe-teste.div {
+    font-size: 1.5rem;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: rgb(255, 0, 251);
+
+    /* Border-box */
+    box-sizing: border-box;
+    height: 250px;
+    width: 900px;
+}
