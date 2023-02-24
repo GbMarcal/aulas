@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+ul {
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+
+.block li {
+    background-color: aquamarine;
+    margin-bottom: 10px;
+    width: 120px;
+}
+
+.inline li {
+    display: inline;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+}
+
+.inline-block li {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+.none {
+    display: none;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+}
+
+/* Static, Relative e Absolute */
+
+.element {
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.element.static {
+    background-color: crimson;
+    position: static /* padrão */
+}
+
+.element.relative {
+    background-color: chocolate;
+    position: relative;
+    left: 100px;
+}
+
+.element.absolute {
+    background-color: cadetblue;
+    position: absolute;
+    left: 150px;
+}
+
+.absolute-pai {
+    background-color: darkkhaki;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.absolute-filho {
+    background-color: darkseagreen;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 0;
+    top: 100px;
+}

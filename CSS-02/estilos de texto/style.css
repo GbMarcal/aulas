@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Butler';
+    src: url(/fonts/Butler_Light.otf);
+}
+
+p {
+    width: 450px;
+    padding: 10px;
+    margin: 5px;
+}
+
+h3 {
+    margin: 5px;
+    padding: 5px 0px 0px 5px;
+}
+
+.alinhamento p {
+    background-color: aquamarine;
+}
+
+/* ALINHAMENTO DE TEXTO */
+
+.esquerda {
+    text-align: left;
+}
+
+.direta {
+    text-align: right;
+}
+
+.centro {
+    text-align: center;
+}
+
+.justificado {
+    text-align: justify; 
+}
+
+/* TEXT TRANSFORM */
+
+.transform p {
+    background-color: bisque;
+}
+
+.maiusculo {
+    text-transform: uppercase;
+}
+
+.minusculo {
+    text-transform: lowercase;
+}
+
+.capitalizado {
+    text-transform: capitalize;
+}
+
+/* TEXT DECORATION */
+
+.decoration p {
+    background-color: cornsilk;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.linha-atraves { 
+    text-decoration: line-through;
+}
+
+.nenhuma {
+    text-decoration: none;
+}
+
+/* ESPAÇAMENTO DE LINHAS */
+
+.altura-linha {
+    line-height: 50px;
+    background-color: darkgray;
+}
+
+/* SOMBRA DE TEXTO */
+
+.sombra {
+    background-color: thistle;
+    text-shadow: 4px 4px 2px slategray
+}
+
+/* PROPRIEDADES DAS FONTES */
+
+.titulo-fonte {
+    font-family: Ubuntu, Inter, sans-serif;
+    font-size: 20px;
+}
+
+.paragrafo-fonte {
+    font-family: Courier, 'Fira Mono', Monospace;
+    font-weight: 700;
+}
+
+.google-fontes {
+    font-family: 'Dancing Script', cursive;
+}
+
+.fonte-baixada {
+    font-family: 'Butler';
+}

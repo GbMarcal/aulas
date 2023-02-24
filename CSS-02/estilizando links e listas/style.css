@@ -1,0 +1,102 @@
+/* ESTILIZANDO LINKS */
+
+a {
+  cursor: crosshair;
+  margin: 15px;
+  padding: 12px;
+}
+
+a:visited {
+  color: aqua;
+}
+
+a:hover {
+  background-color: blue;
+  color: yellow;
+}
+
+a:active {
+  color: red;
+}
+
+/* ESTILIZANDO LISTAS */
+
+.lista-desordenada {
+  list-style-type: square;
+  list-style-position: inside;
+  list-style-image: url("./images/icone.png");
+  /* ou */
+  list-style: square inside url("/images/icone.png");
+  min-width: fit-content;
+  max-width: 15vw;
+}
+
+ul li {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+ol {
+  list-style-type: square;
+  list-style-position: inside;
+  list-style-image: url("./images/icone.png");
+  /* ou */
+  list-style: square inside url("/images/icone.png");
+  min-width: fit-content;
+  max-width: 15vw;
+}
+
+ol li {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+/* ESTILIZANDO BACKGROUND */
+
+p {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.bg {
+  background-image: url("./images/cachorro.PNG");
+  background-color: aqua;
+  width: 800px;
+}
+
+.bg-image {
+  width: 657px;
+  height: 524px;
+}
+
+.bg-repeat {
+    background-repeat: repeat-x;
+    height: 600px;
+    width: 800px;
+}
+
+.bg-cover {
+    width: 800px;
+    height: 600px;
+    background-size: cover;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.bg-position {
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.bg-geral {
+  background: no-repeat #006053 url('./images/cachorro.PNG') top right;
+  height: 600px;
+}
