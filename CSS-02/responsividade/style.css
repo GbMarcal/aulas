@@ -45,3 +45,24 @@ main p {
 .banner img {
     width: 100%;
 }
+
+@media (max-width: 800px) {
+    .cabecalho {
+        background-color: blue;
+    }
+}
+
+@media (max-width: 512px) {
+    .cabecalho {
+        background-color: lightblue;
+        text-align: center;
+    }    
+    
+    .cabecalho nav {
+        float: none;
+    }
+
+    .cabecalho nav li {
+        display: block;
+    }
+}
